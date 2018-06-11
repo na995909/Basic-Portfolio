@@ -39,5 +39,5 @@ The folder contains:
    * The sidebar is `270px` wide.
 
 * Using `float`, `padding`, `margin`, `display`, `overflow`, `clear` and `text-align`.
-Link to the portfolio page:na995909.github.io/Basic-Portfolio/
+Link to the portfolio page: https://na995909.github.io/Basic-Portfolio/
 
