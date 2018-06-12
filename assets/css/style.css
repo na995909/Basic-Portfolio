@@ -51,11 +51,7 @@ a
 	line-height: 30px;
 }
 
-li span {
-	margin-left: 20px;
-	margin-right: 0px;
-	color: #777777;
-}
+
 
 a
 {
@@ -63,6 +59,7 @@ a
 	margin-right: 0px;
 	color: #777777;
 }
+
 
 h1 {
 	
@@ -137,6 +134,8 @@ section
  	margin-bottom: 10px;
 
 }
+
+
 .left {
 	float: left;
 	margin-left: 20px;
@@ -144,6 +143,7 @@ section
 	padding-right: 20px;
 	margin-top: 20px;
 }
+
 
 #p1 {
 	order: 1;
@@ -170,6 +170,8 @@ section
 	color: #777777;
 	line-height: 18px;
 }
+
+
 
 footer 
 {   clear : both;
@@ -200,6 +202,11 @@ div.portfolio
 	padding: 20px;
 }
 
+.portfolio img
+{
+	width: 250px;
+	height: 160px;
+}
 
 
 .label
@@ -232,4 +239,142 @@ button
 	height: 25px;
 }
 
+.my_image {
+	width: 150px;
+
+}
+
 * {box-sizing: border-box;}
+
+@media screen and ( min-width:769px) and (max-width: 980px) {
+	
+	.left{
+		float: none;
+	}
+    
+	section
+	{
+		width: 459px;
+	}
+
+	.content
+	{
+		width: 769px;
+	}
+
+	.header
+	{
+		width: 769px;
+	}
+
+	.portfolio div
+	{
+		float: none !important;
+		width: 100% !important;
+	}
+	.portfolio img{
+		width: 100% !important;
+		height: 100% !important;
+	     }
+}
+	@media screen and  (max-width: 640px) {
+		
+        .navbar {
+        	float: none;
+        	width: 100%;
+         	height: 50px;
+         	line-height: 50px;
+        
+         }
+         h1.name_box {
+         	float: none;
+         	width: 100%;
+         	height: 50px;
+         	line-height: 50px;
+         	
+         }
+        
+        .header{
+        	width: 100%;
+        	height: auto;
+        }
+
+        .content{
+        	width: 95%;
+        }
+
+        .left{
+		float: none;
+		}
+
+
+
+         section {width: 100%; 
+         	float:none;
+         	margin: 20px 0;
+         }
+         aside {width: 100%;
+          float: none;
+          margin: 0;
+         }
+         .portfolio div{
+		width: 100% !important;
+		float: none !important;
+		margin: 0 auto 0;
+	     }
+	     .portfolio img{
+		width: 100% !important;
+		height: 100% !important;
+	     }
+  
+       }          
+        @media screen and (min-width: 641px) and (max-width: 768px) { 
+       
+         .content{
+        	width: 641px;
+        }
+
+        .header
+		{
+			width: 641px;
+		}
+
+         section 
+         {
+         	width: 100%; 
+         	clear: both;
+         	float:none;
+         	height: 750px;
+         	margin: 20px 0;
+         }
+         aside 
+         {
+         	clear: both;
+         	width: 100%;
+          	float: none;
+          	margin: 0;
+         }
+
+         .portfolio div{
+
+	     }
+
+	     .portfolio img{
+			width: 250px;
+			height: 160px;
+	     }
+         
+	}
+
+    
+
+
+
+	
+
+
+
+
+
+
+
